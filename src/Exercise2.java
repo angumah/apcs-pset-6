@@ -19,6 +19,8 @@ public class Exercise2 {
         String usrString = String.valueOf(userInt);
         int length = usrString.length();
 
+        //fixed formatting
+        System.out.println();
         for(int i = length-1; i > -1; i--) {
             String subInt = usrString.substring(i, i+1);
             if(i == 0){

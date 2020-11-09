@@ -27,6 +27,8 @@ public class Exercise6 {
                 fibonacciArray[i] = 1;
             }
         }
-        System.out.printf("%,d", fibonacciArray[userInt-1]);
+        //fixed formatting and newline
+        System.out.printf("%n%,d", fibonacciArray[userInt-1]);
+        System.out.print(".\n");
     }
 }

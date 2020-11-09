@@ -37,11 +37,12 @@ public class Exercise4 {
             sum+= userNums[i];
         }
         if (size == 0){
-            System.out.println("\nError: division by zero.\n");
+            //removed extra new line statement
+            System.out.println("\nError: division by zero.");
         } else {
             double average = (double) (sum) / size;
             System.out.printf("%n%,.2f", average);
-            System.out.print("\n");
+            System.out.print(".\n");
         }
         }
     }

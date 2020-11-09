@@ -26,6 +26,8 @@ public class Exercise1 {
                 sum += i;
             }
         }
-        System.out.printf("%n%,d" , sum , "\n");
+        //added missing new line and formatting
+        System.out.printf("%n%,d" , sum);
+        System.out.print(".\n");
     }
 }

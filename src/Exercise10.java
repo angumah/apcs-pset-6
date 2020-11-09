@@ -8,6 +8,8 @@ public class Exercise10 {
         String cardNum = inputCard.nextLine();
         String cardType = "";
 
+        inputCard.close();
+
         //create card array and determine card type
         int cardNumLength = cardNum.length();
 
@@ -77,7 +79,7 @@ public class Exercise10 {
             System.out.println("\n"+cardType+".");
         }
         else {
-            System.out.println("\nInvalid");
+            System.out.println("\nInvalid.");
         }
     }
 }
